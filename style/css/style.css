@@ -1,0 +1,229 @@
+legend {
+    display: block;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: inherit;
+    color: #060;
+    border: 0;
+    border-bottom: 1px solid #0398CA;
+}
+
+fieldset {
+    padding: .200em .625em .75em;
+    margin: 0 2px;
+    border: 2px solid #0398CA;
+}
+
+.formulaire {
+    border: 1px solid #0398CA;
+    margin-right: 5px;
+    width: 100%;
+    height: 30px;
+    background-color: #e5f6ea;
+    color: #000;
+}
+
+label{
+    color: #060;
+}
+
+/*select de date*/
+.ui-widget-header {
+    color: #060;
+    font-weight: bold;
+}
+
+
+.ui-widget-header {
+    border: 1px solid #dddddd;
+    background: #BFEC96;
+    color: #0394CA;
+    font-weight: bold;
+}
+.ui-widget-content {
+    border: 1px solid #dddddd;
+    background: #BFEC96;
+    color: #0398CA;
+}
+.ui-widget-content {
+    color: #0398CA;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 20px;
+    z-index: 1000;
+    display: none;
+    float: right;
+    min-width: 152px;
+    padding: 5px 0px;
+    margin: 2px 0px 0px;
+    font-size: 14px;
+    text-align: center;
+    list-style: outside none none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.176);
+    background-color: #BFEC96;
+}
+
+body.login-page{
+    padding-top: 70px;
+}
+
+.banniere{
+    background-color: #BFEC96;
+   /* height: 100px;*/
+}
+.police{
+    font-family: Lucida Calligraphy;
+}
+
+
+.nometa{
+    /*border-left: 1px solid;*/
+    margin-top:5px;
+}
+.date{
+    margin-top: 5.7%;
+    margin-bottom: 0%;
+}
+
+
+div#DataTables_Table_0_filter.dataTables_filter {
+    float: left;
+    padding-right: 10px;
+
+}
+
+.form-inline .form-control {
+    width: 310px;
+
+}
+
+.dataTables_wrapper .dataTables_filter {
+    color: #060;
+    padding-top: 4px;
+    height: 38px;
+}
+
+.table-striped > tbody > tr:nth-of-type(2n+1) {
+    background-color: #E8F3DE;
+}
+
+div.dataTables_wrapper div.dataTables_filter {
+    text-align: left;
+}
+
+label > div#DataTables_Table_0_filter.dataTables_filter {
+    font-weight: normal;
+    white-space: nowrap;
+    text-align: left;
+    color: #FFF;
+    background-color: #060;
+}
+
+/*input {
+    color: #060;
+}*/
+
+.labelcouleur{
+    color: #000;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active {
+    cursor: default;
+    color: #666 !important;
+    border: 1px solid #060;
+    background: #E8F3DE;
+    box-shadow: none;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: #000 !important;
+    border: 1px solid #979797;
+    background-color: #FFF;
+
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    box-sizing: border-box;
+    min-width: 1.5em;
+    display: inline-block;
+    padding: 0.5em 1em;
+    margin-left: 2px;
+    text-align: center;
+    text-decoration: none !important;
+    cursor: pointer;
+    border-radius: 2px;
+    border: 1px solid #060;
+    background: #E8F3DE;
+}
+
+div.dataTables_wrapper div.dataTables_filter input {
+    margin-left: 0.5em;
+    display: inline-block;
+    width: 300px;
+    background-color: aliceblue;
+}
+
+
+.maj{
+    text-transform: uppercase;
+}
+
+.zone_filtre {
+    margin-bottom: 5px;
+    padding: 5px 0px 5px 0px;
+    background-color: #E2EFE8;
+    border: 1px solid #11A94D;
+    color: #11A94D;
+}
+
+.centrer{
+    text-align: center;
+}
+
+.projetExe{
+    text-decoration: none;
+    color: #000;
+}
+.amenager{
+    text-decoration: none;
+    color: #000;
+}
+
+
+#tooltip {
+    position:absolute;
+    z-index:9999;
+    color:#fff;
+    font-size:10px;
+    width:180px;
+
+}
+
+#tooltip .tipHeader {
+    height:8px;
+    *background:url(images/tipHeader.gif) no-repeat;
+    background: blueviolet;
+}
+
+/* hack IE */
+*html #tooltip .tipHeader {margin-bottom:-6px;}
+
+#tooltip .tipBody {
+    background-color:#000;
+    padding:5px;
+}
+
+#tooltip .tipFooter {
+    height:8px;
+    background:url(images/tipFooter.gif) no-repeat;
+}
+/*a:hover {
+    color: #000;
+    text-decoration: none;
+}*/
